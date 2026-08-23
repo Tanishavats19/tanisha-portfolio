@@ -9,12 +9,12 @@ export default function Contact() {
         </h2>
 
         <p className="mb-8 text-lg text-[var(--color-bg)]/80">
-          Open to product roles and conversations — reach out anytime.
+          Open to product roles and conversations - reach out anytime.
         </p>
 
         <a
           href={`mailto:${contact.email}`}
-          className="inline-block font-[var(--font-display)] text-3xl font-semibold text-[var(--color-bg)] transition-opacity hover:opacity-80 sm:text-4xl"
+          className="inline-block break-all font-[var(--font-display)] text-xl font-semibold text-[var(--color-bg)] transition-opacity hover:opacity-80 sm:text-3xl md:text-4xl"
         >
           {contact.email}
         </a>

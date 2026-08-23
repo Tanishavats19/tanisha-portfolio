@@ -32,7 +32,7 @@ export default function TimelineItem({ role, company, period, current, summary, 
         <p className="mt-2 max-w-sm text-[var(--color-muted)]">{summary}</p>
 
         <div
-          className={`grid grid-rows-[0fr] transition-all duration-300 ease-out group-hover:grid-rows-[1fr] ${
+          className={`grid grid-rows-[1fr] transition-all duration-300 ease-out sm:grid-rows-[0fr] sm:group-hover:grid-rows-[1fr] ${
             isLeft ? "sm:ml-auto" : ""
           }`}
         >
