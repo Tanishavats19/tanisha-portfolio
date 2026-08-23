@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { instagram } from "../data/caseStudies/instagram";
 import CaseStudyHero from "./sections/CaseStudyHero";
 import CaseStudyContext from "./sections/CaseStudyContext";
@@ -13,7 +14,12 @@ import CaseStudyNextSteps from "./sections/CaseStudyNextSteps";
 import CaseStudyTakeaway from "./sections/CaseStudyTakeaway";
 import CaseStudyProgress from "./components/CaseStudyProgress";
 
+
 export default function InstagramCaseStudy() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, []);
+
   return (
     <div>
     <CaseStudyProgress />
